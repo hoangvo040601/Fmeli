@@ -1,0 +1,33 @@
+.auth-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    .point {
+        .f-point {
+            display: flex;
+            text-align: center;
+            cursor: pointer;
+
+            .point-coin {
+                padding-right: 5px;
+            }
+        }
+
+        .vnd-point {
+            display: flex;
+            text-align: center;
+            cursor: pointer;
+
+            .vnd-coin {
+                padding-right: 5px;
+
+            }
+        }
+
+    }
+
+    .avatar {
+        cursor: pointer;
+    }
+}

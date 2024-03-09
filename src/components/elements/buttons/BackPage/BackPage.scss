@@ -1,0 +1,18 @@
+.backpage-container {
+    .backpage-header {
+        display: flex;
+        align-items: center;
+        padding: 15px 25px;
+
+        .backpage-back {
+            border-radius: 50px;
+            background-color: #eee;
+            padding: 13px 15px;
+        }
+
+        .backpage-title {
+            padding-left: 15px;
+            color: #fe7f56;
+        }
+    }
+}

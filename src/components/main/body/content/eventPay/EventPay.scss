@@ -1,0 +1,406 @@
+.eventpay-container-wraper {
+    .eventpay-container {
+        background-color: #fff;
+        margin: 90px 50px;
+        border-radius: 5px;
+
+        .evenpay-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 50px;
+
+            .header-title {}
+
+            .header-addevent {
+                display: flex;
+                justify-items: center;
+                align-items: center;
+
+                .addevent-search {
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+
+                    .search-input {
+                        border: none;
+                        outline: none;
+                        padding: 5px 20px;
+                        font-size: 15px;
+                        height: 30px;
+                        min-width: 250px;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        background-color: #eee;
+                    }
+
+                    .search-icon {
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
+                        justify-content: center;
+                        height: 30px;
+                        width: 30px;
+                        background-color: rgb(224, 219, 219);
+                        padding: 5px 5px;
+                        margin-right: 5px;
+                        border-bottom-right-radius: 5px;
+                        border-top-right-radius: 5px;
+                        cursor: pointer;
+
+
+                    }
+
+                    .filter-icon {
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
+                        justify-content: center;
+                        height: 30px;
+                        width: 30px;
+                        background-color: rgb(224, 219, 219);
+                        padding: 5px 5px;
+                        margin-right: 5px;
+                        border-radius: 5px;
+                        cursor: pointer;
+
+                    }
+                }
+
+                .addevent-add {
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    height: 40px;
+                    background-color: #fe7f56;
+                    border-radius: 5px;
+                    padding: 0 10px;
+                    cursor: pointer;
+
+                    .add-title {
+                        color: #fff;
+                        padding-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .evenpay-body {
+            padding: 0 50px 50px;
+            .img-pay{
+                width: 50px;
+                height: 50px;
+            }
+            .title-des{
+                margin: 0;
+
+            }
+            .btn-trash{
+                cursor: pointer;
+                
+            }
+            .btn-detail{
+                list-style-type: none;
+                color:rgb(127, 125, 125);
+            }
+        }
+
+        .evenpay-footer {
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 50px;
+            height: 50px;
+            padding-bottom: 50px;
+            // background-color: #fe7f56;
+
+            .footer-number {
+                padding-left: 20px;
+                font-size: 15px;
+            }
+
+            .footer-sum {
+                padding-right: 20px;
+
+            }
+        }
+
+    }
+
+    .evenpay-complete-wraper {
+        display: flex;
+        // height: 300px;
+        justify-content: flex-end;
+
+        .evenpay-complete {
+            background-color: #fff;
+            width: 33.33%;
+            border-radius: 5px;
+            margin: 0 50px;
+
+            .complete-header {
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 30px 25px 15px;
+
+                .header-title {
+                    color: #fe7f56;
+                    margin: 0;
+                    padding-left: 10px;
+                }
+            }
+
+            .complete-descrip {
+                // text-decoration: none;
+                color: #3366ff;
+                display: flex;
+                justify-items: center;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 0 25px 20px;
+                cursor: pointer;
+            }
+
+            .complete-checkcoin {
+                margin: 0 25px 10px;
+
+                .checkcoin-e-wraper {
+                    height: 60px;
+                    background-color: rgb(222, 232, 251);
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-radius: 10px;
+                    padding: 0 15px;
+                    border: 2px solid aqua;
+                    cursor: pointer;
+
+                    .checkcoin-icon {
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
+
+                        .icon-e {
+                            height: 25px;
+                            width: 50px;
+                        }
+
+                        .icon-name {
+                            padding: 0 10px;
+                            color: #fe7f56;
+
+
+                        }
+                    }
+
+                    .checkcoin-cap {
+                        color: #fe7f56;
+
+                    }
+                }
+
+                .divier {
+                    height: 3px;
+                    margin: 10px 0;
+                    background-color: #eee;
+                }
+
+                .checkcoin-m-wraper {
+                    height: 60px;
+                    background-color: #f0cade;
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    justify-content: space-between;
+                    border-radius: 10px;
+                    padding: 0 15px;
+                    cursor: pointer;
+                    border: 2px solid aqua;
+
+                    .checkcoin-icon-m {
+                        display: flex;
+                        justify-items: center;
+                        align-items: center;
+
+                        .icon-m {
+                            height: 25px;
+                            width: 50px;
+                        }
+
+                        .icon-m-name {
+                            padding: 0 10px;
+                            color: #fe7f56;
+                        }
+                    }
+
+                    .checkcoin-m-cap {
+                        color: #fe7f56;
+
+                    }
+                }
+            }
+
+            .complete-voucher-title {
+                display: flex;
+                justify-content: flex-end;
+                margin: 20px 25px 15px;
+
+                .voucher-title-name {
+                    font-weight: 700;
+                    color: #fe7f56;
+                    padding-left: 10px;
+                }
+            }
+
+            .complete-voucher-boddy {
+                display: flex;
+                // background-color: #fe7f56;
+                margin: 0 25px;
+
+                .voucher-body-apply {
+
+                    display: flex;
+                    justify-items: center;
+                    justify-content: center;
+                    align-items: center;
+                    height: 30px;
+                    background-color: rgb(222, 232, 251);
+                    width: 25%;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: #fe7f56;
+                    // border: 1px solid #fe7f56;
+                }
+
+                .voucher-body-input {
+                    display: flex;
+                    justify-items: center;
+                    align-items: center;
+                    height: 30px;
+                    margin-left: 10px;
+                    background-color: #eee;
+                    width: 75%;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    padding-left: 15px;
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
+                    cursor: pointer;
+                    opacity: 0.6;
+                }
+            }
+
+            .complete-voucher-footer {
+                color: #fff;
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 25px;
+
+                .voucher-footer {
+                    display: flex;
+                    justify-content: center;
+                    width: 70px;
+                    background-color: #fe7f56;
+                    border-radius: 50px;
+                    padding: 3px 3px;
+                    margin: 5px 0;
+
+                }
+            }
+
+            .complete-sum-title {
+                display: flex;
+                justify-content: flex-end;
+                margin: 20px 25px 15px;
+
+                .sum-title-name {
+                    font-weight: 700;
+                    color: #fe7f56;
+                    padding-left: 10px;
+                }
+            }
+
+            .complete-sum-cost {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 25px;
+                .sum-cost-name {}
+
+                .sum-cost-price {}
+            }
+
+            .complete-sum-decrease {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 25px;
+                .sum-decrease-name {}
+
+                .sum-decrease-price {
+                }
+            }
+
+            .complete-sum-vat {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 25px;
+                .sum-vat-name{
+
+                }
+                .sum-vat-price{
+
+                }
+            }
+            .divier {
+                margin: 25px 25px;
+                height: 3px;
+                background-color: #eee;
+            }
+            .complete-sum-complete{
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 25px;
+                padding-bottom: 25px;
+                .sum-complete-name{
+                    font-weight: 600;
+                }
+                .sum-complete-price{
+                    margin: 0;
+                }
+            }
+            .complete-cost-button{
+                display: flex;
+                justify-content: flex-end;
+                margin: 25px 25px 50px;
+                .button-cancel{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                    background-color: #eee;
+                    border-radius: 5px;
+                    padding: 0px 20px;
+                    opacity: 0.6;
+                    cursor: pointer;
+
+                }
+                .button-complete{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 40px;
+                    background-color: #fe7f56;
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 0px 20px;
+                    margin-left: 10px;
+                    cursor: pointer;
+
+
+
+                }
+            }
+        }
+    }
+}

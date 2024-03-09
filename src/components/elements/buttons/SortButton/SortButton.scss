@@ -1,0 +1,22 @@
+.sort-wraper{
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #fe7f56;
+    margin: 5px 5px;
+    justify-content: space-around;
+    cursor: pointer;
+    .sort-icon{
+        padding-left: 10px;
+    }
+    .sort-save{
+        color: #fe7f56;
+        // background-color: #fe7f56;
+        border: none;
+        padding-right: 10px;
+    }
+}

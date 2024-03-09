@@ -1,0 +1,16 @@
+.rotation-wraper {
+    .rotation-process {
+        padding: 0 400px;
+
+        .ant-steps-item-process .ant-steps-item-icon {
+            background-color: #fe7f56 !important;
+            border-color: #fe7f56;
+            /* Thay your_color bằng màu bạn muốn */
+        }
+
+        .ant-steps-item-process .ant-steps-item-title {
+            color: #fe7f56 !important;
+        }
+        
+    }
+}

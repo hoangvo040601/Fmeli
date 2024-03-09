@@ -1,0 +1,101 @@
+.footer-container {
+    display: flex;
+    // text-align: center;
+    align-items: center;
+    // justify-content: center;
+    flex-direction: column;
+    // background-color: aqua;
+    .footer-logo {
+        padding: 40px 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer-title {
+        text-align: center;
+
+
+    }
+
+    .footer-form {
+        background-color: #eee;
+        margin: auto;
+        display: flex;
+        // padding: 0px 10px;
+        border-radius: 5px;
+        border: 1px solid #eee;
+
+        input {
+            height: 40px;
+        background-color: #eee;
+            min-width: 250px;
+            font-size: 18px;
+            outline: none;
+            border: none;
+        }
+
+        .footer-form-icon {
+            height: 40px;
+            padding-right: 10px;
+            padding-left: 10px;
+
+        }
+
+        .footer-form-button {
+            height: 43px;
+            border: none;
+            background-color: #fe7f56;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            width: 100px;
+            cursor: pointer;
+        }
+    }
+
+    .footer-more {
+        padding: 50px 0;
+
+        ul {
+            display: flex;
+            padding-inline-start: 0;
+        }
+
+        .footer-more-wraper {
+            list-style-type: none;
+            min-width: 255px;
+            max-width: 510px;
+
+            // text-align: left;
+            .footer-more-title {
+                text-align: left;
+            }
+
+            p {
+                text-align: left;
+            }
+        }
+    }
+
+    .footer-net {
+        display: flex;
+        width: 100%;
+        padding: 10px 0;
+        justify-content: space-around;
+        align-items: center;
+        // .footer-language{
+        //     // width: 33.33%;
+        // }
+        // .footer-pricy{
+        //     // width: 33.33%;
+
+        // }
+        .footer-icon-net{
+            display: flex;
+            // width: 33.33%;
+            .footer-icon-netlogo{
+                padding-left: 10px;
+            }
+
+        }
+    }
+}

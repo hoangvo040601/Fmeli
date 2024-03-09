@@ -1,0 +1,21 @@
+.button-wraper{
+    background-color: #fe7f56;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    justify-content: space-around;
+    cursor: pointer;
+    .button-icon{
+        padding-left: 10px;
+    }
+    .button-save{
+        color: #fff;
+        // background-color: #fe7f56;
+        border: none;
+        padding-right: 10px;
+    }
+}

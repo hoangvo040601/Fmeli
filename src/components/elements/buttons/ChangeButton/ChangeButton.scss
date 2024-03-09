@@ -1,0 +1,21 @@
+.change-wraper{
+    background-color: #fe7f56;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    justify-content: space-around;
+    background-color: #ffe7e0;
+    cursor: pointer;
+    .change-icon{
+        padding-left: 10px;
+    }
+    .change-save{
+        color: #fe7f56;
+        border: none;
+        padding-right: 10px;
+    }
+}

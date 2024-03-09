@@ -1,0 +1,20 @@
+.language-container{
+    // height: 42px;
+    border-radius: 5px;
+    background-color: #eee;
+    display: flex;
+    position: relative;
+    width:150px;
+    cursor: pointer;
+    // justify-content: center;
+    .language-title{
+        padding: 10px 10px;
+    }
+    .footer-languege-icon{
+        // height: 42px;
+        position: absolute;
+        right: 10px;
+        top:10px;
+        padding-right: 10px;
+    }
+}
